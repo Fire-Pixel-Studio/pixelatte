@@ -7,7 +7,7 @@
 
  <link rel="stylesheet" href="docs/assets/style.min.css?v1.1">
  <link rel="stylesheet" href="docs/assets/slim.select.css">
- <title>Pixel It - Create pixel art from an image</title>
+ <title>Pixelatte - Create pixel art from an image</title>
 </head>
 <body>
   <header>
@@ -16,14 +16,13 @@
    <div class="actions">
       <a href="#tryit" class="btn call">try it</a>
       <a href="#examples" class="btn ">examples</a>
-      <a href="#docs" class="btn">Documentation</a>
       <a href="https://github.com/giventofly/pixelit" class="btn" rel="nofollow noopener" target="_blank" title="github repository">github</a>
    </div>
   </header>
 
  <section class="example" id="examples">
    <div class="wrap">
-    <p>Pixel It allows you to take an image and convert into pixel art...</p>
+    <p>Pixelatte allows you to take an image and convert into pixel art...</p>
     
     <h2>Default usage</h2>
     <img src="docs/assets/px-normal.jpg" alt="image pixelated block 4">
@@ -41,7 +40,7 @@
 
 <section class="working">
   <div class="wrap">
-  <h2>Pixel It now</h2>
+  <h2>Pixel it now</h2>
 
 <div class="container maxwidth" id="tryit">
   <div class="selectors">
@@ -79,34 +78,8 @@
   </div>
 
   <canvas id="pixelitcanvas"></canvas>
-  <div class="tip">
-    <p>Did you find this real useful... <a href="https://www.buymeacoffee.com/giventofly" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee"></a></p>
-  </div>
 </div>
 </div>
-</section>
-
-<section class="docs" id="docs">
-  <div class="wrap withmargins">
-    <h2>Documentation</h2>
-    <p>To use the quick default configuration...</p>
-    <pre>
-&lt;img src="docs/assets/sky.jpg" id="pixelitimg" alt=""&gt;
-&lt;canvas id="pixelitcanvas"&gt;&lt;/canvas&gt;
-&lt;script src="docs/dist/pixelit.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-  const px = new pixelit();
-  px.draw().pixelate();
-&lt;/script&gt;
-    </pre>
-
-    <h3>Options</h3>
-    <pre>config = { to:..., from:..., scale:..., palette:..., ... }</pre>
-
-    <h3>API</h3>
-    <p class="api"><strong>.draw()</strong> draw to canvas...</p>
-    <!-- (the rest of the API section remains the same) -->
-  </div>
 </section>
 
 <section class="links">
